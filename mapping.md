@@ -33,7 +33,9 @@
 | elasticsearch_filesystem_io_stats_device_write_operations_count      | gauge      | 1           | Count of disk write operations                                                                      | [Nodes Stats API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | `fs.io_stats.write_operations_count` |
 | elasticsearch_filesystem_io_stats_device_read_size_kilobytes_sum     | gauge      | 1           | Total kilobytes read from disk                                                                      | [Nodes Stats API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | `fs.io_stats.read_kilobytes` |
 | elasticsearch_filesystem_io_stats_device_write_size_kilobytes_sum    | gauge      | 1           | Total kilobytes written to disk                                                                     | [Nodes Stats API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | `fs.io_stats.write_kilobytes` |
-### Done
+
+
+### Not done
 
 | Name                                                                 | Type       | Cardinality | Help                                                                                                | API                                                                                               | Parameter                          |
 |----------------------------------------------------------------------|------------|-------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------|
