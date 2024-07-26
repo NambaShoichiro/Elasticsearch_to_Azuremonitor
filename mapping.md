@@ -36,6 +36,7 @@
 ### Done
 
 | Name                                                                 | Type       | Cardinality | Help                                                                                                | API                                                                                               | Parameter                          |
+|----------------------------------------------------------------------|------------|-------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------|
 | elasticsearch_indices_active_queries                                 | gauge      | 1           | The number of currently active queries                                                              |
 | elasticsearch_indices_docs                                           | gauge      | 1           | Count of documents on this node                                                                     |
 | elasticsearch_indices_docs_deleted                                   | gauge      | 1           | Count of deleted documents on this node                                                             |
